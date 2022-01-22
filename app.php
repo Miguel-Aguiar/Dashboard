@@ -40,10 +40,6 @@
 					"$this->pass"
 				);
 
-				//Tá dando erro
-				//Aplicar utf8 na instância da conexão
-				//$conexao->exec('set charset set utf8');
-
 				return $conexao;
 			}
 			catch(PDOException $e) {
